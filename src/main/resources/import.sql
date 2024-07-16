@@ -1,0 +1,17 @@
+INSERT INTO membros (id, nome, contato) VALUES ('1','Nome','Contato');
+INSERT INTO membros (id, nome, contato) VALUES ('2','Membro','Email/Telefone');
+INSERT INTO membros (id, nome, contato) VALUES ('3','Name','name@email.com');
+INSERT INTO membros (id, nome, contato) VALUES ('4','Member','00XX999999999');
+INSERT INTO atividades (id, nome, local) VALUES ('1', 'Nome', 'Local');
+INSERT INTO atividades (id, nome, local) VALUES ('2', 'Atividade', 'Quadra/Sala');
+INSERT INTO atividades (id, nome, local) VALUES ('3', 'Name', 'Court 1');
+INSERT INTO atividades (id, nome, local) VALUES ('4', 'Activity', 'Room 1');
+INSERT INTO membro_atividade (membro_id, atividade_id) VALUES ('1', '1');
+INSERT INTO membro_atividade (membro_id, atividade_id) VALUES ('1', '2');
+INSERT INTO membro_atividade (membro_id, atividade_id) VALUES ('2', '1');
+INSERT INTO membro_atividade (membro_id, atividade_id) VALUES ('2', '2');
+INSERT INTO membro_atividade (membro_id, atividade_id) VALUES ('2', '3');
+INSERT INTO membro_atividade (membro_id, atividade_id) VALUES ('2', '4');
+INSERT INTO membro_atividade (membro_id, atividade_id) VALUES ('3', '3');
+INSERT INTO membro_atividade (membro_id, atividade_id) VALUES ('3', '4');
+INSERT INTO membro_atividade (membro_id, atividade_id) VALUES ('4', '4');
